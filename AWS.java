@@ -86,6 +86,9 @@ public class AWS extends HttpServlet {
 		request.setAttribute("pass", Password);		
 		RequestDispatcher dispatch = request.getRequestDispatcher("AWSloginID.jsp");
 		dispatch.forward(request, response);
+	
+		
+		
 		
 	}
 				
